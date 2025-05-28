@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
+
+*{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-image: url(../cabezal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    text-align: center;
+
+}
+
+.contenedor
+{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+    
+
+h1{
+    font-size: 30px;
+    font-family: 'Gill Sans';
+    margin-top: 0;
+    text-align: center;
+    color: white;
+
+
+/* estilos headear*/
+
+
+}
+h2{
+    color: rgb(133, 130, 130);
+    font-size: 20px;
+    font-family: 'Gill Sans';
+    margin: 20px;
+
+
+
+
+/*fin estilos headear*/

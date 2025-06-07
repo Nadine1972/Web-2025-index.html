@@ -106,10 +106,10 @@ nav {
     border-radius: 5px;
 }
 
-@media (max-width: 769px) 
+@media (max-width: 769px){
 .conainer{
     flex-direction: columns;
     Justify-content: center;
 }
-
+}
 /*fin estilos headear*/

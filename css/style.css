@@ -1,44 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
 
+
+
+
 *{
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0%;
     box-sizing: border-box;
     background-image: url(../img/cabezal.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
     text-align: center;
+    max-width: 1200px;
+    margin: 10 auto;
 
 }
+
 
 .contenedor
 {
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
     
-
-h1{
-    font-size: 30px;
-    font-family: 'Gill Sans';
-    margin-top: 0;
-    text-align: center;
-    color: white;
-
+    
 
 /* estilos headear*/
 
 
+ body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-h2{
-    color: rgb(133, 130, 130);
-    font-size: 20px;
-    font-family: 'Gill Sans';
-    margin: 20px;}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #787676;
+    padding: 1rem;
+}
+
+
+/*PARA JUSTIFY-CONTENT*/
+.nav-container {
+    display: flex;
+    justify-content:space-between; /*flex-start, flex-end, center, space-between, space-around, space-evenly*/
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/*PARA FLEX-DIRECTION*/
+.menu {
+    display: flex;
+    flex-direction: row; /*column, column-reverse, row, row-reverse*/
+    list-style-type: none; /*disc, circle, square, none*/
+    color: rgb(246, 247, 245);
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu li {
+    margin-left: 2rem;
+}
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; /*none, underline, overline, line-through*/
+}
+
+.Inicio{
+    flex: 1  1 30%;
+    min-width: 200px;
+    padding: 1rem;
+    background-color: #c8c8c8;
+    border-radius: 5px;
+}
 
 
 
+.Impresiones{
+    flex: 1  1 30%;
+    min-width: 200px;
+    padding: 1rem;
+    background-color: #c8c8c8;
+    border-radius: 5px;
+}
+
+
+.Productos{
+    flex: 1  1 30%;
+    min-width: 200px;
+    padding: 1rem;
+    background-color: #c8c8c8;
+    border-radius: 5px;
+}
+
+@media (max-width: 769px) 
+.conainer{
+    flex-direction: columns;
+    Justify-content: center;
+}
 
 /*fin estilos headear*/
